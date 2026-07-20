@@ -1,0 +1,19 @@
+#formFilme{
+    color: rgb(109, 55, 211);
+    font-family: Arial;
+    
+}
+
+
+label, input{
+    display: block;
+    margin: 15px 0px;
+
+}
+
+input{
+    width: 460px;
+    height: 40px;
+
+}
+
