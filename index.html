@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Filmes</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Cadastro de Filmes</h1>
+    </header>
+
+    <main>
+
+        <section id="formulario">
+            <h2>Novo Filme</h2>
+
+            <form>
+
+                <div>
+                    <label for="titulo">Título</label>
+                    <input
+                        type="text"
+                        id="titulo"
+                        placeholder="Digite o título">
+                </div>
+
+                <div>
+                    <label for="genero">Gênero</label>
+                    <select id="genero">
+                        <option>Ação</option>
+                        <option>Comédia</option>
+                        <option>Drama</option>
+                        <option>Ficção</option>
+                        <option>Terror</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="ano">Ano</label>
+                    <input type="number" id="ano">
+                </div>
+
+                <div>
+                    <label for="diretor">Diretor</label>
+                    <input type="text" id="diretor">
+                </div>
+
+                <div>
+                    <label for="duracao">Duração (min)</label>
+                    <input type="number" id="duracao">
+                </div>
+
+                <div>
+                    <label for="sinopse">Sinopse</label>
+                    <textarea id="sinopse"></textarea>
+                </div>
+
+                <button type="submit">
+                    Cadastrar Filme
+                </button>
+
+            </form>
+
+        </section>
+
+        <section id="lista-filmes">
+
+            <h2>Filmes Cadastrados</h2>
+
+            <table border="1">
+
+                <thead>
+                    <tr>
+                        <th>Título</th>
+                        <th>Gênero</th>
+                        <th>Ano</th>
+                        <th>Diretor</th>
+                        <th>Duração</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td>Interestelar</td>
+                        <td>Ficção</td>
+                        <td>2014</td>
+                        <td>Christopher Nolan</td>
+                        <td>169 min</td>
+                        <td>
+                            <button>Editar</button>
+                            <button>Excluir</button>
+                        </td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </section>
+
+    </main>
+
+</body>
+</html>
