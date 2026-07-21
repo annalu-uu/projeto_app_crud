@@ -63,6 +63,6 @@ function removerFilme(indice: number): void {
     atualizarTabela();
 }
 
-// Torna a função acessível ao botão HTML
+// Torna a função acessível pro botão HTML
 (window as any).removerFilme = removerFilme;
 
