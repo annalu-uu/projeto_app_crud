@@ -1,5 +1,11 @@
 {
+  "name": "cadastro-filmes",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
   "devDependencies": {
-    "typescript": "^7.0.2"
+    "typescript": "^5.9.0"
   }
 }
